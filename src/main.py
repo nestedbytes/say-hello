@@ -18,7 +18,7 @@ class SayHello(App):
      
         self.greeting = Label(
                         text= "What's your name?",
-                        font_size= 18,
+                        font_size= 50,
                         color= '#00FFCE'
                         )
         self.window.add_widget(self.greeting)
